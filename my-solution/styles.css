@@ -1,0 +1,40 @@
+/* Make all li elements purple */
+li {
+    color: purple;
+}
+
+/* Make all h1s and h2s blue (with one rule) */
+h1, h2 {
+    color: blue;
+}
+
+/* Give the element with the id of 'submit' a green background color */
+#submit {
+    background-color: green;
+}
+
+/* Make the spans inside the element with the id of 'flavors' red*/
+#flavors span {
+    color: red;
+}
+
+/* Give the elements with the class 'size' a text color of magenta*/
+.size {
+    color: magenta;
+}
+
+/*  Select the email input (and ONLY the email input) and give it an orange background color*/
+input[type="email"] {
+    background-color: orange;
+}
+
+
+/* Select all links that have an href ending in '.org' and make them magenta*/
+a[href $= ".org"] {
+    color: magenta;
+}
+
+/* Select the h2 with the class of 'bright' (be careful, other elements have the same class!) and give it a color of cyan */
+h2.bright {
+    color: cyan;
+}
