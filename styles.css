@@ -16,7 +16,7 @@ h1 {
 
 nav ul, nav ul li{
     display: inline;
-    padding: 0 5px;
+    padding: 0 10px;
 }
 
 a {
@@ -46,9 +46,13 @@ main, #gallery, img {
     margin: 0 0 50px;
 }
 
-img {
+.photo-card img {
     height: 500px;
     object-fit: cover;
+}
+
+.photo-card img:hover {
+    opacity: 0.9;
 }
 
 .photo-card:nth-child(even) {
