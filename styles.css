@@ -64,6 +64,33 @@ img {
     margin: 0;
     padding: 0;
     font-weight: 600;
+    font-size: 18px;
 }
+
+footer {
+    box-sizing: border-box;
+    width: 50%;
+    padding-left: 10%;
+    margin-top: 56px;
+}
+
+footer p {
+    font-size: 32px;
+}
+
+footer a {
+    font-weight: 900;
+}
+
+#contact {
+    margin-top: 120px;
+    border-top: 1px solid black;
+}
+
+small {
+    display: block;
+    font-weight: 700;
+}
+
 
 
