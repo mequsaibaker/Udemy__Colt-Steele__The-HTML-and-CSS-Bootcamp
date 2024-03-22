@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    background-color: #463d36;
+    color: #463d36;
+}
+
+main {
+    width: 600px;
+    margin: 240px auto 0;
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+h2 {
+    color: #a6192e;
+}
+
+p {
+    font-size: 24px;
+    margin: 28px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 24px 36px;
+    background-color: #463d36;
+    font-weight: 700;
+    font-size: 16px;
+}
