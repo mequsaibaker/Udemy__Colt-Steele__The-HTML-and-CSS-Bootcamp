@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: mukta, sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: bitter, serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+header {
+    box-sizing: border-box;
+    background-color: #7A34E1;
+    height: 100vh;
+    width: 0.1%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.hero {
+    text-align: center;
+    color: white;
+    
+}
+
+.hero hr {
+    margin: 48px 0;
+}
+
+.hero p {
+    padding: 0 42px;
+}
+
+main, .hero {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+small {
+    text-align: center;
+    display: block;
+    font-weight: 800;
+    margin: 48px 0;
+}
+
+main p.uppercase {
+    font-weight: 700;
+    margin: 48px 0;
+}
+
+blockquote {
+    border-left: 2px solid red;
+    padding-left: 20px;
+    font-style: italic;
+    margin-top: 32px;
+}
+
+blockquote p, cite {
+    margin: 0;
+}
+
+cite {
+    display: block;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+hr {
+    margin: 72px 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.red {
+    color: red;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+footer {
+    background-color: #7A34E1;
+    padding: 24px;
+    margin-top: 72px;
+}
+
+footer ul {
+    width: fit-content;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
