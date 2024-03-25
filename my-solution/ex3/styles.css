@@ -1,0 +1,23 @@
+h1 {
+    font-size: 5rem;
+    text-align:center;
+  }
+  .container  {
+    background-color: #283593;
+    margin: 0 auto;
+    width: 1200px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  span {
+    width: 200px;
+    color: white;
+    background-color: #26C6DA;
+    font-size: 3rem;
+    border: 1px solid black;
+    text-align:center;
+    border-radius: 20px;
+  }
