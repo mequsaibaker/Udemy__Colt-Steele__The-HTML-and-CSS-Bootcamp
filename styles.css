@@ -17,12 +17,28 @@ h1 {
     margin: 3rem 0;
 }
 
-/*Styling the main container*/
+p {
+    color: black;
+    margin: 2rem 0;
+}
+
+.short-txt {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+
+.num {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+/*Styling the main container layout*/
 main {
     background-color: white;
-    padding: 2rem;
+    padding: 2rem 4rem;
     width: 900px;
-    margin: 0 auto;
+    margin: 3rem auto;
     border-radius: 20px;
 }
 
@@ -37,16 +53,12 @@ nav {
 }
 
 .nav-item {
-
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .nav-item span {
     color: #E3D9FB;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 0.75rem;
     padding-bottom: 2rem;
 }
 
@@ -70,11 +82,11 @@ nav {
 }
 
 nav > hr {
-    width: calc(100% + 4rem);
+    width: calc(100% + 8rem);
     border: 2px solid #DBDBDB;
     border-radius: 10px;
     margin-top: -4px;
-    margin-left: -2rem;
+    margin-left: -4rem;
 }
 
 /*Styling toggle button*/
@@ -94,11 +106,8 @@ nav > hr {
     display: flex;
     background-color: #533699;
     color: white;
-    font-size: 0.75rem;
-    text-transform: uppercase;
     border-radius: 50px;
     padding: 3px;
-    font-weight: bold;
 }
 
 .toggle-option {
@@ -111,5 +120,20 @@ nav > hr {
     color: #533699;
     background-color: white;
 }
+
+/*Styling the num-card*/
+.num-card {
+    display: flex;
+    background-color: #F7F6FF;
+    margin: 2rem auto;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    border-radius: 20px;
+}
+
+
+
 
 
