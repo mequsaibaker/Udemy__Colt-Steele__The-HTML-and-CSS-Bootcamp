@@ -34,22 +34,30 @@ p {
 }
 
 /*Styling the main container layout*/
+header {
+    margin: 0 auto;
+}
+
 main {
     background-color: white;
     padding: 2rem 4rem;
-    width: 900px;
+    max-width: 900px;
+    width: 80%;
     margin: 3rem auto;
     border-radius: 20px;
+    overflow: hidden;
 }
 
 /*Styling the top navbar*/
 nav {
     margin-bottom: 2rem;
+    width: 100%;
 }
 
 .nav-items {
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 
 .nav-item {
@@ -179,4 +187,67 @@ nav > hr {
     justify-content: space-between;
 }
 
+/*Styling pricing card*/
+.pricing {
+    display: flex;
+    justify-content: space-between;
+}
 
+.pricing-card {
+    position: relative;
+    box-sizing: border-box;
+    width: 48%;
+    background-color: #F7F6FF;
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: transform 0.2s ease-out;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+}
+
+.pricing-card hr {
+    width: 5rem;
+    border: 1px solid #DBDBDB;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+.pricing-card p {
+    margin: 1rem 0;
+    color: #533699;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pricing-card button {
+    border: none;
+    background-color: #533699;
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.pricing-card button:hover {
+    background-color: #6447aa;
+}
+
+.offer {
+    display: flex;
+    position: absolute;
+    background-image: linear-gradient(90deg, #533699, #7558bb);
+    width: 100%;
+    color: white;
+    border-radius: 20px 20px 0 0;
+    justify-content: center;
+    padding: 2px 0;
+    top: -4px;
+}
