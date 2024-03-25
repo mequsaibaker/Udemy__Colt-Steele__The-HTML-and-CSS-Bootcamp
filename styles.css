@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7F7FD5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #91EAE4, #86A8E7, #7F7FD5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #91EAE4, #86A8E7, #7F7FD5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+button {
+    margin: 0.5rem;
+    padding: 0.7rem 3rem;
+    border: 0;
+    border-radius: 5px;
+    color: purple;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out, background-color 0.2s ease-out;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: #efefef;
+    transform: translateY(-2px);
+    box-shadow: rgba(50, 50, 93, 0.5) 0px 13px 40px -5px, rgba(0, 0, 0, 0.4) 0px 8px 24px -20px;
+}
+
+.btn2:hover {
+    background-color: #efefef;
+    transform: scale(0.97);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -20px;
+}
