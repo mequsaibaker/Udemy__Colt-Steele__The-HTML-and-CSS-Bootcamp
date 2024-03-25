@@ -27,8 +27,8 @@ main {
 }
 
 /*Styling the top navbar*/
-.nav {
-    position: relative;
+nav {
+    margin-bottom: 2rem;
 }
 
 .nav-items {
@@ -70,7 +70,6 @@ main {
 }
 
 nav > hr {
-    display: absolute;
     width: calc(100% + 4rem);
     border: 2px solid #DBDBDB;
     border-radius: 10px;
@@ -79,5 +78,38 @@ nav > hr {
 }
 
 /*Styling toggle button*/
+.toggle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.toggle img {
+    width: 28px;
+    margin: 0 16px;
+}
+
+.toggle-group {
+    display: flex;
+    background-color: #533699;
+    color: white;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.toggle-option {
+    padding: 0.25rem 0.75rem;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.toggle-option.active {
+    color: #533699;
+    background-color: white;
+}
 
 
