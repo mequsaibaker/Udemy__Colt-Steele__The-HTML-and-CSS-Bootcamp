@@ -8,10 +8,17 @@ h1 {
     margin: 0 auto;
     width: 1200px;
     height: 800px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
 }
 
 span {
     width: 250px;
+    height: 150px;
     color: white;
     background-color: #26C6DA;
     font-size: 3rem;
