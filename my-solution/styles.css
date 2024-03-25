@@ -8,6 +8,9 @@ h1 {
     margin: 0 auto;
     width: 1200px;
     height: 800px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 span {
@@ -18,4 +21,8 @@ span {
     border: 1px solid black;
     text-align: center;
     border-radius: 20px;
+}
+
+.special {
+    align-self: flex-start;
 }
