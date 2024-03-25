@@ -39,6 +39,7 @@ header {
 }
 
 main {
+    position: relative;
     background-color: white;
     padding: 2rem 4rem;
     max-width: 900px;
@@ -65,6 +66,7 @@ nav {
     flex-direction: column;
     align-items: center;
 }
+
 .nav-item span {
     color: #E3D9FB;
     padding-bottom: 2rem;
@@ -78,6 +80,7 @@ nav {
     border: 2px solid #DBDBDB;
     border-radius: 10px;
     width: 100px;
+    z-index: 1;
 }
 
 .nav-item.active hr {
@@ -89,16 +92,19 @@ nav {
     cursor: pointer;
 }
 
-nav > hr {
-    width: calc(100% + 8rem);
+nav>hr {
+    position: absolute;
+    width: 100%;
     border: 2px solid #DBDBDB;
     border-radius: 10px;
     margin-top: -4px;
-    margin-left: -4rem;
+    /* margin-left: -4rem; */
+    z-index: 0;
+    left: 0px;
 }
 
 /*Styling toggle button*/
-.toggle{
+.toggle {
     display: flex;
     justify-content: center;
     align-items: center;
