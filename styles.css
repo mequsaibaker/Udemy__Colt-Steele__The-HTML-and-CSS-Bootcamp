@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans';
+    background-color: #E3D9FB;
+    color: #533699;
+}
+
+h1 {
+    font-size: 1.75rem;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+/*Styling the main container*/
+main {
+    background-color: white;
+    padding: 2rem;
+    width: 900px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+/*Styling the top navbar*/
+.nav {
+    position: relative;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-item span {
+    color: #E3D9FB;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.75rem;
+    padding-bottom: 2rem;
+}
+
+.nav-item.active span {
+    color: #533699;
+}
+
+.nav-item hr {
+    border: 2px solid #DBDBDB;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.nav-item.active hr {
+    border-color: #533699;
+}
+
+.nav-item:hover span {
+    color: #533699;
+    cursor: pointer;
+}
+
+nav > hr {
+    display: absolute;
+    width: calc(100% + 4rem);
+    border: 2px solid #DBDBDB;
+    border-radius: 10px;
+    margin-top: -4px;
+    margin-left: -2rem;
+}
+
+/*Styling toggle button*/
+
+
