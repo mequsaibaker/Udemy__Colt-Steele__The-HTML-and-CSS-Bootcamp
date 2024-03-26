@@ -4,3 +4,9 @@ Style the container to create:
   - 3 columns, all evenly sized
   - 3 rows (100 pixels, 200px, and 100px)
 */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 100px;
+}
