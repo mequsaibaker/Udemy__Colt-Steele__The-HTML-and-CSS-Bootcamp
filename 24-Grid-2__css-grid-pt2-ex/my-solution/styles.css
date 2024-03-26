@@ -1,0 +1,13 @@
+/*  
+Style the container div 
+  - 6 columns, each 1 fraction.  USE REPEAT!
+  - 4 rows, each 100 pixels.  USE REPEAT!
+  - 10px gaps between rows and columns
+*/
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 100px);
+    gap: 10px;
+}
