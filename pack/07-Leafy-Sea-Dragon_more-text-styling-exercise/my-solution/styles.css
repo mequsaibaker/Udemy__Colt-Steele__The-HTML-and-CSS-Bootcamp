@@ -1,0 +1,51 @@
+/* Give everything in the body a sans-serif font */
+body {
+    font-family: sans-serif;
+}
+
+/* Make the h1 center aligned.  Make it not bold (a lighter weight) and give it a font size of 40px */
+h1 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 40px;
+}
+
+/* Give the paragraphs a font size of 24px */
+p {
+    font-size: 24px;
+}
+
+/*  Select the element with the id of 'leafy' and make it have a color of #1d6e09 and give it a #1d6e09 underline*/
+#leafy {
+    color: #1d6e09;
+    text-decoration: underline #1d6e09;
+}
+
+/* Select the elements with the class of 'latin' and make them italicized*/
+.latin {
+    font-style: italic;
+}
+
+
+/* Select all h2s and make them uppercase (using css) */
+h2 {
+    text-transform: uppercase;
+}
+
+/*  Select all links and remove their underline and make them have a color of orange*/
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+/* Write styles so that links turn red and have a red underline when hovered over*/
+a:hover {
+    color: red;
+    text-decoration: underline red;
+}
+
+/*  Make the unordered list use squares for their bullet point marker*/
+ul {
+    list-style-type: square;
+}
+
