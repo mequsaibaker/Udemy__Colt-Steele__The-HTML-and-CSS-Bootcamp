@@ -1,0 +1,24 @@
+h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.container {
+    background-color: #283593;
+    margin: 0 auto;
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+span {
+    color: white;
+    background-color: #26C6DA;
+    font-size: 4rem;
+    width: 400px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 20px;
+}
