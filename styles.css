@@ -257,3 +257,44 @@ nav>hr {
     padding: 2px 0;
     top: -4px;
 }
+
+@media only screen and (max-width: 1000px) {
+    main {
+        width: unset;
+        margin: 2rem 3%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .num-card {
+        width: unset;
+    }
+
+    .pricing {
+        flex-direction: column;
+    }
+
+    .pricing-card {
+        width: unset;
+        margin: 1rem 0;
+    }
+
+    .pricing-card:first-of-type {
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 1.5rem 1rem;
+    }
+
+    .nav-item span {
+        padding-bottom: 1.5rem;
+    }
+
+    .tight {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
