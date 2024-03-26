@@ -17,6 +17,34 @@
     <li><strong>Project Solutions:</strong> Additionally, you'll find my solutions for the various projects assigned in the course. These projects allowed me to apply the skills I learned to real-world scenarios, building responsive and visually appealing websites.</li>
 </ul>
 
+<h2>My Learning Journey</h2>
+
+<ul>
+    <li><code>HTML structuring</code></li>
+    <li><code>Text, tables, forms in HTML</code></li>
+    <li><code>Semantic markup for accessibility/SEO</code></li>
+    <li><code>CSS selectors targeting</code></li>
+    <li><code>Box model comprehension</code></li>
+    <li><code>CSS properties: color, font, text</code></li>
+    <li><code>CSS specificity, cascade</code></li>
+    <li><code>CSS units for layout</code></li>
+    <li><code>CSS animations, transitions</code></li>
+    <li><code>CSS pseudo-elements usage</code></li>
+    <li><code>Gradients, filters, CSS effects</code></li>
+    <li><code>CSS positioning, floats</code></li>
+    <li><code>Responsive web design principles</code></li>
+    <li><code>Media queries for screen sizes</code></li>
+    <li><code>Flexbox layouts</code></li>
+    <li><code>CSS Grid for complex layouts</code></li>
+    <li><code>CSS variables for styling</code></li>
+    <li><code>Clean, maintainable CSS</code></li>
+    <li><code>Real-world project building</code></li>
+    <li><code>Testing, debugging HTML/CSS</code></li>
+    <li><code>Community collaboration for support</code></li>
+    <li><code>Web development best practices</code></li>
+</ul>
+
+
 <h2>Why This Repository?</h2>
 
 <p>By sharing my solutions in this repository, I aim to provide a resource for fellow learners to review, compare, and learn from. Whether you're revisiting concepts or seeking guidance on specific exercises or projects, this repository serves as a reference point for your learning journey in <code>HTML</code> and <code>CSS</code> development.</p>
