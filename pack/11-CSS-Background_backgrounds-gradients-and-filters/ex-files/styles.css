@@ -1,0 +1,19 @@
+/* Give this container a background image using the URL below.  Make sure that the entire wolf in the original image is visible in the container */
+
+/*  https://i.postimg.cc/Jh60BT85/Screen-Shot-2023-01-30-at-10-08-54-AM.png */ 
+.container {
+    width: 800px;
+    height: 600px;
+    border: 2px solid red;
+  }
+  
+  /*  Give the container a background image using the image url below. Adjust the image so that the entire image is visible in the container*/
+  
+  /* https://images.unsplash.com/photo-1674905682134-496ca5a4862b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1376&q=80 */
+  
+  .container2 {
+    width: 300px;
+    height: 500px;
+    border: 2px solid red;
+  }
+  
