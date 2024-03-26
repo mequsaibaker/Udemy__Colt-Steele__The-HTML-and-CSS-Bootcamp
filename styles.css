@@ -145,3 +145,11 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 600px) {
+    footer ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
