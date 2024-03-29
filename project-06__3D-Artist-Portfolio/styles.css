@@ -82,6 +82,7 @@ aside {
     width: 20%;
     z-index: 2;
     transition: all 0.3s ease-out;
+    opacity: 0;
 }
 aside .nav-list {
     background-color: white;
@@ -100,6 +101,7 @@ aside .nav-list ul li {
 
 .aside-animate {
     transform: translateX(-160px);
+    opacity: 1;
 }
 
 @keyframes slide {
